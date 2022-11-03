@@ -34,9 +34,9 @@ body {
   padding: 10px;
 }
 .content li i {
-  margin-left: 10px;
+  margin-left: 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 .content input {
   border: none;
@@ -60,4 +60,10 @@ body {
   outline: none;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.btn-removeAll:hover {
+  background: #7cac49;
+  transform: scale(1.1);
 }
